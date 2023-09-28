@@ -18,6 +18,28 @@ namespace Ecommerce.Controllers
             return View();
         }
 
+		public IActionResult Shop()
+		{
+			return View();
+		}
+		public IActionResult Services()
+		{
+			return View();
+		}
+        public IActionResult Contact()
+        {
+            return View();
+        }
+        public IActionResult Cart()
+        {
+            return View();
+        }
+
+        public IActionResult Checkout()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
